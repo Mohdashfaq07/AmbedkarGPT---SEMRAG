@@ -17,7 +17,18 @@
 
 ## Getting Started
 
-### **1. Clone the repository**
+AmbedkarGPT — SEM-RAG Pipeline Demo
+
+1. Load preprocessed chunks, knowledge graph and community clusters
+2. Ask: "Why did Ambedkar oppose the caste system?"
+3. System retrieves top semantic chunks
+4. Local LLM (TinyLlama) generates context-grounded answer
+5. Display context chunks used (traceability and explainability)
+6. Ask comparison question e.g. "Why did Ambedkar convert to Buddhism?"
+7. Close demo
+
+Commands:
+python run_demo.py --model tinyllama --pdf data/Ambedkar_book.pdf
 
 ```bash
 git clone https://github.com/Mohdashfaq07/AmbedkarGPT---SEMRAG.git
