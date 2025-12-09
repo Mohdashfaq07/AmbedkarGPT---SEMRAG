@@ -20,5 +20,10 @@
 ### **1. Clone the repository**
 
 ```bash
-git clone https://github.com/<Mohdashfaq07>/AmbedkarGPT.git
-cd AmbedkarGPT
+git clone https://github.com/Mohdashfaq07/AmbedkarGPT---SEMRAG.git
+cd AmbedkarGPT---SEMRAG
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+ollama pull tinyllama   # or mistral if RAM available
