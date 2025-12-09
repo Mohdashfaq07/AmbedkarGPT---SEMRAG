@@ -1,1 +1,24 @@
 # AmbedkarGPT---SEMRAG
+
+**AmbedkarGPT** is a Semantic-Enhanced Retrieval-Augmented Generation (SEM-RAG) system for answering questions from B.R. Ambedkar’s writings. It combines PDF semantic chunking, embeddings, knowledge graph construction, community detection, and a local LLM via Ollama to produce context-aware answers while preventing hallucination.
+
+---
+
+## Features
+
+- **Semantic Chunking**: Converts PDF text into meaningful chunks for retrieval.  
+- **Embeddings & Retrieval**: Uses vector similarity search to find relevant chunks.  
+- **Knowledge Graph & Communities**: Louvain clustering identifies key themes in the text.  
+- **RAG Query Engine**: Retrieves top relevant chunks and generates answers using a local LLM.  
+- **Interactive CLI Demo**: Ask questions and get context-based answers.  
+- **Offline Execution**: Runs completely locally using Ollama models (`tinyllama`, `gemma`, etc.).  
+
+---
+
+## Getting Started
+
+### **1. Clone the repository**
+
+```bash
+git clone https://github.com/<Mohdashfaq07>/AmbedkarGPT.git
+cd AmbedkarGPT
