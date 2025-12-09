@@ -1,0 +1,8 @@
+pypdf
+sentence-transformers
+spacy
+tqdm
+scikit-learn
+networkx
+python-louvain
+transformers
